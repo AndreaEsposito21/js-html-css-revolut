@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menù</title>
-
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -16,7 +20,9 @@
             <nav>
                 <!-- Logo -->
                 <div class="logo">
-                    <img src="img/logo-revolut.png" alt="logo-revolut">
+                    <a href="#">
+                        <img src="img/logo-revolut.png" alt="logo-revolut">
+                    </a>
                 </div>
                 <!-- End Logo -->
 
@@ -37,134 +43,149 @@
                 <!-- Menu destra -->
                 <div class="right-menu">
                     <ul class="menu">
-                        <li>
+                        <li class="li-dropdown">
                             <a href="#">Tariffazione</a>
 
                             <!-- Tendina -->
                             <div class="dropdown">
                                 <ul class="menu">
                                     <li>
-                                        <a href="#"></a>
+                                        <a href="#">Budget</a>
                                     </li>
 
                                     <li>
-                                        <a href="#"></a>
+                                        <a href="#">Carte</a>
                                     </li>
 
                                     <li>
-                                        <a href="#"></a>
+                                        <a href="#">Salvadanaio</a>
                                     </li>
 
                                     <li>
-                                        <a href="#"></a>
+                                        <a href="#">Conto Junior</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">Pocket</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
 
-                        <li>
+                        <li class="li-dropdown">
                             <a href="#">Conti</a>
 
                             <!-- Tendina -->
                             <div class="dropdown">
                                 <ul class="menu">
                                     <li>
-                                        <a href="#"></a>
+                                        <a href="#">Fatture</a>
                                     </li>
 
                                     <li>
-                                        <a href="#"></a>
+                                        <a href="#">Abbonamenti</a>
                                     </li>
 
                                     <li>
-                                        <a href="#"></a>
+                                        <a href="#">Donazioni</a>
                                     </li>
 
                                     <li>
-                                        <a href="#"></a>
+                                        <a href="#">Sicurezza</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
 
-                        <li>
+                        <li class="li-dropdown">
                             <a href="#">Prodotti</a>
 
                             <!-- Tendina -->
                             <div class="dropdown">
                                 <ul class="menu">
                                     <li>
-                                        <a href="#"></a>
+                                        <a href="#">Trasferimenti di denaro</a>
                                     </li>
 
                                     <li>
-                                        <a href="#"></a>
+                                        <a href="#">Vault</a>
                                     </li>
 
                                     <li>
-                                        <a href="#"></a>
+                                        <a href="#">Gestione budget</a>
                                     </li>
 
                                     <li>
-                                        <a href="#"></a>
+                                        <a href="#">Perk</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">Criptovaluta</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">Assicurazione Smartphone</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">Assicurazione medica internazionale</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
 
-                        <li>
+                        <li class="li-dropdown">
                             <a href="#">Azienda</a>
 
                             <!-- Tendina -->
                             <div class="dropdown">
                                 <ul class="menu">
                                     <li>
-                                        <a href="#"></a>
+                                        <a href="#">Chi siamo</a>
                                     </li>
 
                                     <li>
-                                        <a href="#"></a>
+                                        <a href="#">Blog</a>
                                     </li>
 
                                     <li>
-                                        <a href="#"></a>
+                                        <a href="#">Leadership</a>
                                     </li>
 
                                     <li>
-                                        <a href="#"></a>
+                                        <a href="#">Lavora con noi</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">Contatti</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
 
-                        <li>
+                        <li class="li-dropdown">
                             <a href="#">Aiuto</a>
 
                             <!-- Tendina -->
                             <div class="dropdown">
                                 <ul class="menu">
                                     <li>
-                                        <a href="#"></a>
+                                        <a href="#">FAQ</a>
                                     </li>
 
                                     <li>
-                                        <a href="#"></a>
+                                        <a href="#">Centro assistenza</a>
                                     </li>
 
                                     <li>
-                                        <a href="#"></a>
-                                    </li>
-
-                                    <li>
-                                        <a href="#"></a>
+                                        <a href="#">Community</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
 
-                        <li>
-                            <a href="#">IT</a>
-                            <i class="fas fa-chevron-down"></i>
+                        <li class="li-dropdown">
+                            <a href="#">IT <i class="fas fa-chevron-down"></i></a>
 
                             <!-- Tendina -->
                             <div class="dropdown">
@@ -195,9 +216,11 @@
                                 </ul>
                             </div>
                         </li>
-                    </ul>
 
-                    <!-- <button>Scarica l'app</button> -->
+                        <li>
+                            <button class="btn-download">Scarica l'app</button>
+                        </li>
+                    </ul>
                 </div>
                 <!-- End Menu destra -->
             </nav>
